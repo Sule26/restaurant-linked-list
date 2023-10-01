@@ -1,0 +1,115 @@
+DATA_PATH = r"src/data/data.xlsx"
+
+logo = """"
+  ____           _                              _   
+ |  _ \ ___  ___| |_ __ _ _   _ _ __ __ _ _ __ | |_ 
+ | |_) / _ \/ __| __/ _` | | | | '__/ _` | '_ \| __|
+ |  _ <  __/\__ \ || (_| | |_| | | | (_| | | | | |_ 
+ |_| \_\___||___/\__\__,_|\__,_|_|  \__,_|_| |_|\__|
+"""
+
+OPTION_LIST = [
+    "Add table",
+    "Alter table's infos",
+    "Close table's bill",
+    "Display all tables",
+    "Insert a new item in the menu",
+    "Delete an item in the menu",
+    "Alter an item in the menu",
+    "Display menu",
+    "Add a waiter",
+    "Delete a waiter",
+    "Alter waiter's infos",
+    "Display all waiters",
+    "Finish",
+]
+
+waiters = {
+    "name": [
+        "João Pedro",
+        "Raquel",
+        "Júlia",
+        "Thiago",
+        "Aylton",
+        "Leonardo",
+        "José",
+        "Pedro Henrique",
+        "Jorge",
+        "Matheus",
+    ]
+}
+
+foods = {
+    "name": [
+        "Contra file",
+        "Contra file com queijo branco",
+        "Contra file empanado",
+        "Bife a cavalo",
+        "Chuleta",
+        "File mignon a parmegiana",
+        "File mignon grelhado",
+        "File mignon com queijo branco",
+        "File mignon a cavalo",
+        "Picanha a brasileira",
+        "File de frango",
+        "File de frango a cavalo",
+        "File de frango com queijo branco",
+        "File de frango empanado",
+        "File de frango a parmegiana",
+        "Bisteca de porco",
+        "Costelinha de porco",
+        "Costelinha de porco frita com molho barbecue",
+        "Omelete",
+        "Omelete recheado com batata",
+        "Calabresa acebolada",
+        "Salada",
+        "Agua mineral sem gas",
+        "Agua mineral com gas",
+        "Agua tonica",
+        "Suco integral (Laranja/Uva/Morango/Limao)",
+        "Refrigerante",
+        "Jack  Daniel's",
+        "Johnnie Walker Black",
+        "Johnnie Walker Red Label",
+        "Vodka Smirnoff",
+        "Dose Cachaca",
+        "Margarita",
+        "Whiskey Sour",
+    ],
+    "price": [
+        17,
+        21,
+        19,
+        19,
+        20,
+        27,
+        24,
+        26,
+        26,
+        27,
+        16,
+        18,
+        20,
+        18,
+        25,
+        16,
+        18,
+        21,
+        18,
+        20,
+        16,
+        10,
+        4.5,
+        4.5,
+        5,
+        7.5,
+        7.5,
+        20.5,
+        23,
+        19.5,
+        11.5,
+        4.5,
+        17.5,
+        18,
+    ],
+}
